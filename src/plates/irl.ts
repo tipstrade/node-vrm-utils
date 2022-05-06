@@ -28,4 +28,6 @@ export const getIrlPlate: PlateFn = (date) => {
       issued: new Date(year, 0, 1),
     };
   }
+
+  return undefined;
 }

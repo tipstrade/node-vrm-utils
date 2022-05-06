@@ -102,4 +102,6 @@ export const getGbrPlate: PlateFn = (date) => {
       return createPlate(found[0], found[1], found[2]);
     }
   }
+
+  return undefined;
 }
